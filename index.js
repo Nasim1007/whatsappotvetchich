@@ -15,9 +15,9 @@ client.on('ready', () => {
 });
 client.on('message', message => {
 
-    if (true) {
-        client.sendMessage(message.from, 'Чурка')
-    }
+    // if (true) {
+    //     client.sendMessage(message.from, 'Чурка')
+    // }
 
 	if(message.body === 'a') {
         client.sendMessage(message.from, 'Hello')
